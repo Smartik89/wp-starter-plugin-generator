@@ -1,0 +1,187 @@
+.page-install{
+	display: block;
+	margin: 50px auto;
+	max-width: 600px;
+}
+.page-install .form-control{
+	border-color: #2d2f33;
+}
+.page-install .install-success{
+	padding: 25px;
+	text-align: center;
+	border-radius: 5px;
+	background: #fff;
+	color: #555;
+}
+.page-install .install-success .install-log-list{
+	text-align: left;
+	margin: 20px 0;
+	padding: 0;
+}
+.page-install .install-success .install-log-list li{
+	margin-bottom: 10px;
+	padding: 5px 15px;
+	list-style: none;
+}
+
+body{
+	background: #60646D;
+	color: #fff;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", 
+	            "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.site{
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 35px 50px;
+	min-height: 100vh;
+	background: #fff;
+	color: #333;
+}
+
+h1.h1-title{
+  text-align: center;
+}
+
+h3.form-section{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+h3.form-section span{
+  display: inline-block;
+  padding: 5px 10px;
+  background: #3E4651;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+  border-radius: 3px;
+  position: relative;
+  z-index: 2;
+}
+h3.form-section:before{
+  content: "";
+  display: block;
+  height: 1px;
+  background: #3E4651;
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  right: 16px;
+  z-index: 1;
+}
+
+.form-nice-selector > span {
+  display: inline-block;
+  margin-right: 15px;
+  margin: 5px 5px 5px 0;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 24px;
+  min-width: 40px;
+  text-align: center;
+  cursor: pointer;
+  padding: 7px;
+  background: #f7f7f7;
+  border: 2px solid #e1e1e1;
+  border-radius: 4px;
+}
+.form-nice-selector > span:hover {
+  border-color: #a2a2a2;
+}
+.form-nice-selector > span.active {
+  border-color: #2C82C9;
+  color: #2C82C9;
+}
+.form-nice-selector > span .color-box,
+.form-nice-selector > span .img-box {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.form-nice-selector > span .img-box {
+  max-height: 24px;
+  width: auto;
+}
+.form-nice-selector > span .img-box img {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: auto;
+  max-width: none;
+  height: 24px;
+}
+.form-nice-selector.large > span {
+  min-width: 100px;
+}
+.form-nice-selector.large > span .color-box {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-nice-selector.large > span .img-box {
+  max-height: none;
+  display: block;
+  height: auto;
+  margin: 0 auto 10px;
+  text-align: center;
+}
+.form-nice-selector.large > span .img-box img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 15px;
+}
+
+.plugin-single-link{
+  padding-right: 50px;
+  position: relative;
+}
+.plugin-single-link .the-icon{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 4px;
+  padding: 6px 8px;
+  background: #fefefe;
+  color: red;
+  border-radius: 3px;
+  border: 1px solid red;
+}
+.plugin-single-link .the-icon:hover{
+  background: red;
+  color: #fff;
+}
+a.plugin-link{
+  display: block;
+  padding: 10px 15px;
+  margin: 5px 15px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  color: #555;
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
+}
+a.plugin-link .plugin-name{
+  font-weight: 700;
+  float: left;
+}
+a.plugin-link .plugin-id{
+  font-size: 14px;
+  color: #888;
+  float: right;
+}
+a.plugin-link:hover{
+  background: #fefefe;
+  border-color: #ccc;
+  text-decoration: none;
+}
